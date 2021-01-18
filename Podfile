@@ -9,5 +9,7 @@ target 'test' do
   # Pods for test
 
 pod 'Firebase/Auth'
+pod 'FBSDKLoginKit'
+pod 'Firebase/Database'
 
 end
