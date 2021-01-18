@@ -134,11 +134,40 @@
                     <navigationItem key="navigationItem" id="F4y-8X-iVT"/>
                     <connections>
                         <segue destination="b1B-O7-FFX" kind="show" identifier="segueToPorfile" id="Enl-88-sxU"/>
+                        <segue destination="8bd-BV-Dnt" kind="show" id="WjD-J6-skA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZeA-PW-YqI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1594" y="139"/>
+        </scene>
+        <!--People View Controller-->
+        <scene sceneID="xc1-a5-O0h">
+            <objects>
+                <viewController id="8bd-BV-Dnt" customClass="PeopleViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TcK-gB-3d0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="R7c-QH-duh">
+                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="R7c-QH-duh" secondAttribute="bottom" id="JE6-sq-C57"/>
+                            <constraint firstItem="R7c-QH-duh" firstAttribute="trailing" secondItem="zbI-pv-Sfa" secondAttribute="trailing" id="Lho-DH-h5O"/>
+                            <constraint firstItem="R7c-QH-duh" firstAttribute="top" secondItem="zbI-pv-Sfa" secondAttribute="top" id="RCd-W9-bh4"/>
+                            <constraint firstItem="R7c-QH-duh" firstAttribute="leading" secondItem="zbI-pv-Sfa" secondAttribute="leading" id="wfZ-FR-bmh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zbI-pv-Sfa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8oI-C9-fBi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7v-QY-toz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2350.7246376811595" y="421.20535714285711"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="81f-XO-0pz">
@@ -229,7 +258,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzx-Lb-u7K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2298.5507246376815" y="138.61607142857142"/>
+            <point key="canvasLocation" x="2351" y="-240"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uvX-Bh-NjM">
